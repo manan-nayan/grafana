@@ -128,9 +128,12 @@ export class PromQueryEditor extends PureComponent<Props, State> {
           <div className="gf-form">
             <FormLabel
               width={7}
-              tooltip="An additional lower limit for the step parameter
-        of the Prometheus query and for the <code>$__interval</code> variable.
-        The limit is absolute and not modified by the resolution setting."
+              tooltip={
+                <>
+                  An additional lower limit for the step parameter of the Prometheus query and for the{' '}
+                  <code>$__interval</code> variable. The limit is absolute and not modified by the "Resolution" setting.
+                </>
+              }
             >
               Min step
             </FormLabel>
