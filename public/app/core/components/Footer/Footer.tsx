@@ -17,7 +17,7 @@ export const Footer: FC<Props> = React.memo(
           <ul>
             <li>
               <a href="http://docs.grafana.org" target="_blank" rel="noopener">
-                <i className="fa fa-file-code-o" /> Docs
+                <i className="fa fa-file-code-o" /> Blogs
               </a>
             </li>
             <li>
@@ -26,12 +26,12 @@ export const Footer: FC<Props> = React.memo(
                 target="_blank"
                 rel="noopener"
               >
-                <i className="fa fa-support" /> Support & Enterprise
+                <i className="fa fa-support" /> Nayan
               </a>
             </li>
             <li>
               <a href="https://community.grafana.com/" target="_blank" rel="noopener">
-                <i className="fa fa-comments-o" /> Community
+                <i className="fa fa-comments-o" /> Nayan
               </a>
             </li>
             <li>
